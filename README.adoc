@@ -79,13 +79,18 @@ JSON:
     
     "end_date":"2024-1-24",
     
+    "topic":"India Maldives",
+    
     "type":"Pos"
 }
 ----
 
 == Features 
 **The Backend** contain all essential features:
-
+- Dynamic topic search
+- **Logging** functionality included
+- Support for both **HTML and JSON** response 
+- **Rule based** news sentiment analysis 
 
 
 
