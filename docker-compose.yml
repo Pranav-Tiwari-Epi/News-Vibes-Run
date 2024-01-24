@@ -4,7 +4,7 @@ services:
   api:
     image: emperorkautilya/news-vibes
     environment:
-      DB_HOST: mysql_db:3306
+      DB_HOST: mysql_news_database:3306
       DB_NAME: news_db
       DB_USER: root
       DB_PASSWORD: password
@@ -14,7 +14,7 @@ services:
       mysql_db:
         condition: service_healthy
 
-  mysql_db:
+  mysql_news_database:
     image: mysql
     environment:
       MYSQL_DATABASE: news_db
